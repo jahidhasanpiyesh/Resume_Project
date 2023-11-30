@@ -4,15 +4,18 @@ This is my first project. I know this is very basic level but I have created my 
 |Step|Work|Sub Work|
 |-|-|-|
 |00|Run Cmd/Terminal|Windows/gitbash/Pycharm terminal/Vs terminal|
-|00|||
-|00|||
-|00|||
-|00|||
-|00|||
-|00|||
-|00|||
-|00|||
-|00|||
+|01|Chack python|python --version|
+|02|chack pip|pip --version|
+|03|Create env|python -m venv env|
+|04|Run env|env\scripts\activate/ source/env/scripts/activate|
+|05|Install Django|pip install django|
+|06|Create Project|django-admin startproject (any project name)|
+|07|Create Project App|python manage.py startapp (any app name)|
+|08|Add to requirment.txt File|pip freeze>r requirment.txt/pip freeze>requirment.txt|
+|09|Show Main Project setting.py|INSTALLED_APPS=[add create app name]|
+|10|Add Template/Static File|templates/Html  static/css/js/images|
+|12|Urls.py add |urls defiend this project etc|
+|13|Run server|python manage.py runserver|
 
 |Serial Number|Topic|
 |-|-|
