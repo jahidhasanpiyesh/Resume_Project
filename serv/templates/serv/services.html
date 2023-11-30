@@ -1,0 +1,57 @@
+{% extends "core/base.html" %}
+{% block title %}
+<title>Services</title>
+{% endblock title %}
+{% block content %} 
+<div class="container mt-4">
+    <h1 class="text-warning mb-5 border-bottom">SERVICES</h1>
+
+    {% comment %} -------First row------- {% endcomment %}
+    <div class="row text-center text-white mb-5">
+
+        <div class="col-sm-4">
+            <i class="fa-brands fa-python fa-2xl mb-3 i-color"></i>
+            <h3>Problem Solving</h3>
+            <p class="t-color">Python is an incredibly flexible language and can be used in a number 
+                of ways to help you solve everyday problems.</p>
+        </div>
+
+        <div class="col-sm-4">
+            <i class="fa-solid fa-money-bill-trend-up fa-2xl mb-3 i-color"></i>
+            <h3>Backend Customization</h3>
+            <p class="t-color">Custom backend software can automate business processes, which can improve
+                 efficiency and reduce costs.</div>
+ 
+        <div class="col-sm-4">
+            <i class="fa-solid fa-code fa-2xl mb-3 i-color"></i>
+            <h3>Web Development</h3>
+            <p class="t-color">Web development is a fast-paced, challenging career centered on creative 
+                problem-solving and continuous innovation.</p>
+        </div>
+
+       {% comment %} --------second row------ {% endcomment %}
+        <div class="row text-center text-white mb-5">
+
+            <div class="col-sm-4">
+                <i class="fa-brands fa-quinscape fa-2xl mb-3 i-color"></i>
+                <h3>Django Rest API</h3>
+                <p class="t-color">Django REST framework (DRF) is a powerful and flexible toolkit for 
+                    building Web APIs. Its main benefit is that it makes serialization much easier.</p>
+            </div>
+    
+            <div class="col-sm-4">
+                <i class="fa-solid fa-code-compare fa-2xl mb-3 i-color"></i>
+                <h3>Django Based Web <br> Applications</h3>
+                <p class="t-color">Django's major objective is to make web projects less complicated.</p>
+            </div>
+    
+            <div class="col-sm-4">
+                <i class="fa-database fa-code-compare fa-2xl mb-3 i-color"></i>
+                <h3>Hosting</h3>
+                <p class="t-color">Django's major objective is to make web projects less complicated.</p>
+            </div>
+
+        </div>
+    </div>
+</div>         
+{% endblock content %}

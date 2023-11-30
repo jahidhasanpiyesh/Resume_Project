@@ -1,0 +1,29 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block content %}
+<div class="mt-5">
+    <div class="text-center">
+        <img src="{% static 'core/images/profile.jpg' %}" alt="profile" 
+        class="img-thumbnail" width="250px" height="150px">
+    </div>
+    <div class="mt-4 text-white mx-5 text-justify">
+        <h1 class="font-width-bold st-font">Hello,</h1>
+        <div class="mx-4" style="line-height:2rem;">
+            <p style="text-indent:100px;">
+                I Am <b class="text-warning">Md. Jahid Hasan</b> I Completed my 3 months <b class="text-warning">Python Backend Development internship</b> from Creative IT Danmondi, Dhaka. In these three months I have learned a lot by giving regular classes and assignment. Besides this i am working on <b class="text-warning">2 project</b>. The first is <b class="text-warning">E-Commmerce site</b> and the other is <b class="text-warning">Online Polytechnic Managment</b>. 
+                I will try to show some advance in these project.
+                <br>
+                <br>
+                I want to establish as a <b class="text-warning">Python Back End Developer</b> in different local, international 
+                multinational organizations by offering the value/benefit Branding, Creative idea, Promotion. Want 
+                to establish myself as a <b class="text-warning">Sr. Python Full Stack Developer within 4-5 years</b>.
+            </p>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="{% url "contact" %}" class="btn btn-outline-warning my-3">Hire Me</a>
+        <a href="{% url "contact" %}" class="btn btn-outline-info offset-sm-1 my-3">Contract</a>
+    </div>
+</div>
+                
+{% endblock content %}
