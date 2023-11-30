@@ -1,6 +1,19 @@
 # Resume_Project
 This is my first project. I know this is very basic level but I have created my first resume Django base project and I am very advanced in creating any project.
 
+|Step|Work|Sub Work|
+|-|-|-|
+|00|Run Cmd/Terminal|Windows/gitbash/Pycharm terminal/Vs terminal|
+|00|||
+|00|||
+|00|||
+|00|||
+|00|||
+|00|||
+|00|||
+|00|||
+|00|||
+
 |Serial Number|Topic|
 |-|-|
 |00|Creating Project and Applications|
