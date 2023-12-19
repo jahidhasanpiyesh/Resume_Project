@@ -12,91 +12,95 @@
             Do you have any question? Please do not hesitate to 
             contact. I  will come back to you within a matter of hours to help you.
         </p>
-        <div class="row">
 
-            <!--Grid column-->
-            <div class="col-md-9 mb-md-0 mb-5">
-                <formaction="">
-    
-                    <!--Grid row-->
-                    <div class="row">
-    
-                        <!--Grid column-->
-                        <div class="col-md-6">
-                            <div class="md-form mb-2">
-                                <label for="name" class="">Your Name</label>
-                                <input type="text" name="name" class="form-control" id="name">
+        <form action="" method="post" novalidate>
+            {% csrf_token %}
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <formaction="">
+        
+                        <!--Grid row-->
+                        <div class="row">
+        
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-2">
+                                    <label for="name" class="">Your Name</label>
+                                    <input type="text" name="name" class="form-control" id="name">
+                                </div>
+                            </div>
+                            <!--Grid column-->
+        
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-2">
+                                    <label for="email" class="">Your Email *</label>
+                                    <input type="text" id="email" name="email" class="form-control">  
+                                </div>
+                            </div>
+                            <!--Grid column-->
+        
+                        </div>
+                        <!--Grid row-->
+        
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-2">
+                                    <label for="subject" class="">Subject</label>
+                                    <input type="text" id="subject" name="subject" class="form-control">                                
+                                </div>
                             </div>
                         </div>
-                        <!--Grid column-->
-    
-                        <!--Grid column-->
-                        <div class="col-md-6">
-                            <div class="md-form mb-2">
-                                <label for="email" class="">Your Email *</label>
-                                <input type="text" id="email" name="email" class="form-control">  
+                        <!--Grid row-->
+        
+                        <!--Grid row-->
+                        <div class="row">
+        
+                            <!--Grid column-->
+                            <div class="col-md-12">
+        
+                                <div class="md-form md-2">
+                                    <label for="message">Your Message</label>
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>                               
+                                </div>
+        
                             </div>
                         </div>
-                        <!--Grid column-->
-    
+                        <!--Grid row-->
+        
+                    </formaction=>
+        
+                    <div class="text-center mt-3">
+                        <a class="btn btn-primary my-3" onclick="document.getElementById('contact-form').submit();"><input type="submit" value="Submit" class="submit"></a>
+                        <a href="{% url "home" %}" class="btn btn-primary offset-sm-1 mu-3" onclick="document.getElementById('contact-form').submit();"><input type="button" value="Back" class="back"></a>
                     </div>
-                    <!--Grid row-->
-    
-                    <!--Grid row-->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="md-form mb-2">
-                                <label for="subject" class="">Subject</label>
-                                <input type="text" id="subject" name="subject" class="form-control">                                
-                            </div>
-                        </div>
-                    </div>
-                    <!--Grid row-->
-    
-                    <!--Grid row-->
-                    <div class="row">
-    
-                        <!--Grid column-->
-                        <div class="col-md-12">
-    
-                            <div class="md-form md-2">
-                                <label for="message">Your Message</label>
-                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>                               
-                            </div>
-    
-                        </div>
-                    </div>
-                    <!--Grid row-->
-    
-                </formaction=>
-    
-                <div class="text-center mt-3">
-                    <a class="btn btn-primary my-3" onclick="document.getElementById('contact-form').submit();">Send</a>
-                    <a href="{% url "home" %}" class="btn btn-primary offset-sm-1 mu-3" onclick="document.getElementById('contact-form').submit();">Back</a>
+                    <div class="status"></div>
                 </div>
-                <div class="status"></div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-map-marker-alt fa-2x i-color"></i>
+                            <p>Danmondi, Dhaka, Bangladesh</p>
+                        </li>
+        
+                        <li><i class="fas fa-phone mt-4 fa-2x i-color"></i>
+                            <p>+880 1710756233</p>
+                        </li>
+        
+                        <li><i class="fas fa-envelope mt-4 fa-2x i-color"></i>
+                            <p>jahidjesan508@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+        
             </div>
-            <!--Grid column-->
-    
-            <!--Grid column-->
-            <div class="col-md-3 text-center">
-                <ul class="list-unstyled mb-0">
-                    <li><i class="fas fa-map-marker-alt fa-2x i-color"></i>
-                        <p>Danmondi, Dhaka, Bangladesh</p>
-                    </li>
-    
-                    <li><i class="fas fa-phone mt-4 fa-2x i-color"></i>
-                        <p>+880 1710756233</p>
-                    </li>
-    
-                    <li><i class="fas fa-envelope mt-4 fa-2x i-color"></i>
-                        <p>jahidjesan508@gmail.com</p>
-                    </li>
-                </ul>
-            </div>
-            <!--Grid column-->
-    
-        </div>
+        </form>
     
     </section>
 

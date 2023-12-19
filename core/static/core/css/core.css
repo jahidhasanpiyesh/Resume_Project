@@ -33,3 +33,18 @@ a.nav-link.active{
     background-color: #ffc107;
     font-weight: bold;
 }
+
+.submit{
+    background-color: #0d6efd;
+    border: none;
+    -webkit-text-fill-color: white;
+    
+}
+
+.back{
+    background-color: #0d6efd;
+    border: none;
+    -webkit-text-fill-color: white;
+    width: 50px;
+    text-align: center;
+}
