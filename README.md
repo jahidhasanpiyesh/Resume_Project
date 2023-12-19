@@ -33,3 +33,4 @@ This is my first project. I know this is very basic level but I have created my 
 |11|More work in Side Bar|
 |12|Add active class Dynamically|
 |13|Defining STATIC_ROOT|
+|14|Contact Form is update and successfully Working|
